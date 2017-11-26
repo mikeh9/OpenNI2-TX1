@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -O2    CMakeFiles/freenect-cpp_pcview.dir/cpp_pc_view.cpp.o  -o ../../bin/freenect-cpp_pcview -rdynamic ../../lib/libfreenect.so.0.6.0 -lGLU -lGL -lglut -lXmu -lXi -lpthread -lm -lusb-1.0 -Wl,-rpath,/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/build/lib: 

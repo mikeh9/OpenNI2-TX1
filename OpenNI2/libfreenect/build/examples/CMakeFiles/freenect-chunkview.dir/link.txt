@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -O2    CMakeFiles/freenect-chunkview.dir/chunkview.c.o  -o ../bin/freenect-chunkview -rdynamic ../lib/libfreenect.so.0.6.0 -lGLU -lGL -lglut -lXmu -lXi -lpthread -lm -lusb-1.0 -Wl,-rpath,/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/build/lib: 

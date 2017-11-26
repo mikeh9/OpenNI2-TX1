@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -O2    CMakeFiles/freenect-tiltdemo.dir/tiltdemo.c.o  -o ../bin/freenect-tiltdemo -rdynamic ../lib/libfreenect_sync.so.0.6.0 -lm ../lib/libfreenect.so.0.6.0 -lusb-1.0 -lpthread -Wl,-rpath,/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/build/lib: 

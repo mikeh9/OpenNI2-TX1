@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -Wall -O2   -shared -Wl,-soname,libfreenect_sync.so.0.6 -o ../../lib/libfreenect_sync.so.0.6.0 CMakeFiles/freenect_sync.dir/libfreenect_sync.c.o ../../lib/libfreenect.so.0.6.0 -lpthread -lusb-1.0 -Wl,-rpath,/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/build/lib: 

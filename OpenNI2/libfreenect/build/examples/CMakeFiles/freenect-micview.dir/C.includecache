@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/libfreenect.h
+stdint.h
+-
+winsock.h
+-
+sys/time.h
+-
+
+../include/libfreenect_audio.h
+libfreenect.h
+../include/libfreenect.h
+stdint.h
+-
+
+/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/examples/micview.c
+libfreenect.h
+/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/examples/libfreenect.h
+libfreenect_audio.h
+/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/examples/libfreenect_audio.h
+stdio.h
+-
+string.h
+-
+signal.h
+-
+pthread.h
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+

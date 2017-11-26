@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -O2    CMakeFiles/freenect-camtest.dir/camtest.c.o  -o ../bin/freenect-camtest -rdynamic ../lib/libfreenect.so.0.6.0 -lusb-1.0 -Wl,-rpath,/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/build/lib: 

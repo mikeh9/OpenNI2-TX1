@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -O2    CMakeFiles/fakenect-record.dir/record.c.o CMakeFiles/fakenect-record.dir/parson.c.o  -o ../bin/fakenect-record -rdynamic ../lib/libfreenect.so.0.6.0 -lm -lusb-1.0 -Wl,-rpath,/media/nvidia/AI-SD/OpenNI2/OpenNI2/libfreenect/build/lib: 

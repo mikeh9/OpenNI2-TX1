@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -Wall -O2  -Wno-unused-function  -shared -Wl,-soname,libFreenectDriver.so.0.6 -o ../lib/OpenNI2-FreenectDriver/libFreenectDriver.so.0.6.0 CMakeFiles/FreenectDriver.dir/src/DeviceDriver.cpp.o CMakeFiles/FreenectDriver.dir/src/DepthStream.cpp.o CMakeFiles/FreenectDriver.dir/src/ColorStream.cpp.o ../lib/libfreenect.a -lm -lusb-1.0 
